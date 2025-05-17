@@ -13,6 +13,7 @@ resource "proxmox_lxc" "container-lxc" {
   console      = var.console
   description  = "my first container from terraform"
   cores        = var.cores
+  vmid = 200
 
   features {
     nesting = var.nesting
