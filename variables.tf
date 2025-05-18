@@ -1,26 +1,3 @@
-/* variable "pm_api_url" {
-  type    = string
-  description = "API endpoint url"
-}
-
-variable "pm_api_token_id" {
-  type        = string
-  description = "token id for proxmox user"
-  sensitive   = true
-}
-
-variable "pm_api_token_secret" {
-  type        = string
-  description = "secret token for proxmox"
-  sensitive   = true
-}
-
-variable "pm_log_file" {
-  type        = string
-  default     = "terraform-plugin-proxmox.log"
-  description = "log file for terraform"
-}
-*/
 
 variable "target_node" {
   type        = string
