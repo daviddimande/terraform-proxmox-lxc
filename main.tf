@@ -35,7 +35,7 @@ resource "proxmox_lxc" "container-lxc" {
     size    = var.container_size
   }
 
-   network {
+  network {
     name   = var.network_bridge
     bridge = var.bridge_type
     ip     = var.ip
