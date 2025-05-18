@@ -1,4 +1,4 @@
-variable "pm_api_url" {
+/* variable "pm_api_url" {
   type    = string
   description = "API endpoint url"
 }
@@ -20,6 +20,7 @@ variable "pm_log_file" {
   default     = "terraform-plugin-proxmox.log"
   description = "log file for terraform"
 }
+*/
 
 variable "target_node" {
   type        = string
