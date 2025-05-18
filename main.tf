@@ -5,9 +5,7 @@ terraform {
       source  = "Telmate/proxmox"
       version = "3.0.1-rc9"
     }
-
   }
-
 }
 
 resource "proxmox_lxc" "container-lxc" {
