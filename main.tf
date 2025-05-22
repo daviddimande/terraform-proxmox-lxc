@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
   required_version = "~> 1.2"
   required_providers {
     proxmox = {
@@ -7,6 +7,7 @@ terraform {
     }
   }
 }
+*/
 
 resource "proxmox_lxc" "container-lxc" {
   target_node  = var.target_node
